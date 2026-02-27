@@ -9,6 +9,11 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'unispotnet | Independent Service Guidance',
   description: 'Get independent guidance and informational support for internet, broadband, WiFi, and cable TV services. Third-party assistance provider founded 2026.',
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/apple-touch-icon.svg',
+  },
+  manifest: '/manifest.json',
 }
 
 export default function RootLayout({
@@ -18,35 +23,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
-        <link rel="manifest" href="/manifest.json" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Suppress specific console errors related to hydration from browser extensions
-              (function() {
-                const originalError = console.error;
-                console.error = function(...args) {
-                  if (
-                    typeof args[0] === 'string' && 
-                    (args[0].includes('Hydration') || 
-                     args[0].includes('hydration') ||
-                     args[0].includes('did not match') ||
-                     args[0].includes('bis_skin_checked') ||
-                     args[0].includes('cz-shortcut-listen'))
-                  ) {
-                    return;
-                  }
-                  originalError.apply(console, args);
-                };
-              })();
-            `,
-          }}
-        />
-      </head>
       <body className="font-sans antialiased bg-background text-foreground" suppressHydrationWarning>
+        <Script id="suppress-hydration-errors" strategy="beforeInteractive">
+          {`
+            // Suppress specific console errors related to hydration from browser extensions
+            (function() {
+              const originalError = console.error;
+              console.error = function(...args) {
+                if (
+                  typeof args[0] === 'string' && 
+                  (args[0].includes('Hydration') || 
+                   args[0].includes('hydration') ||
+                   args[0].includes('did not match') ||
+                   args[0].includes('bis_skin_checked') ||
+                   args[0].includes('cz-shortcut-listen'))
+                ) {
+                  return;
+                }
+                originalError.apply(console, args);
+              };
+            })();
+          `}
+        </Script>
         <Script id="cleanup-extensions" strategy="beforeInteractive">
           {`
             (function() {
