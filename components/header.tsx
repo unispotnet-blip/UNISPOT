@@ -21,12 +21,8 @@ export default function Header() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center border-2 border-accent/20">
-                <span className="text-accent-foreground font-bold text-base">IA</span>
-              </div>
-              <div className="hidden sm:block">
-                <span className="font-bold text-lg text-foreground block leading-tight">Internet Assist</span>
-                <span className="text-[10px] text-muted-foreground">Independent Third-Party Service</span>
+              <div>
+                <span className="font-bold text-xl text-foreground block leading-tight">unispotnet</span>
               </div>
             </Link>
 

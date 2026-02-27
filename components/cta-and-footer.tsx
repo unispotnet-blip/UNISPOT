@@ -53,7 +53,8 @@ export default function CTAAndFooter() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             {/* Brand */}
             <div>
-              <h3 className="text-xl font-bold text-[#d4af37] mb-4">Internet Assist</h3>
+              <h3 className="text-xl font-bold text-[#d4af37] mb-2">unispotnet</h3>
+              <p className="text-xs text-gray-500 mb-4">Independent Third-Party Service</p>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
                 Independent third-party service assistance provider offering general guidance and informational support for internet, broadband, and cable TV services.
               </p>
@@ -137,7 +138,7 @@ export default function CTAAndFooter() {
             <div className="bg-[#1a1a1a] border border-[#d4af37]/30 rounded-lg p-6">
               <h5 className="text-[#d4af37] font-bold text-sm mb-3 text-center">IMPORTANT DISCLOSURE</h5>
               <p className="text-gray-300 text-xs text-center leading-relaxed mb-3">
-                <span className="font-semibold">Internet Assist</span> is an independent third-party service assistance provider, launched in 2026. We are <span className="font-semibold text-white">NOT affiliated with, endorsed by, or sponsored by</span> any cable, internet, or streaming service provider.
+                <span className="font-semibold">unispotnet</span> is an independent third-party service assistance provider, launched in 2026. We are <span className="font-semibold text-white">NOT affiliated with, endorsed by, or sponsored by</span> any cable, internet, or streaming service provider.
               </p>
               <p className="text-gray-400 text-xs text-center leading-relaxed">
                 We do <span className="font-semibold">NOT</span> sell internet, cable, or streaming plans. We provide general guidance and assistance services only. Our service fees are separate from any provider charges. All trademarks mentioned are for informational purposes only and belong to their respective owners.
@@ -155,7 +156,7 @@ export default function CTAAndFooter() {
           {/* Bottom bar */}
           <div className="border-t border-[#2d2d2d] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm text-center md:text-left">
-              © 2026 Internet Assist. All rights reserved. Independent Third-Party Service Provider.
+              © 2026 unispotnet. All rights reserved. Independent Third-Party Service Provider.
             </p>
             <div className="flex gap-6">
               <a
