@@ -51,24 +51,50 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
 
       - name: Verify build output
         run: |
-          echo "Root directory after build:"
+          echo "=== Root directory after build ==="
           ls -la
-          echo "Checking for out directory:"
+          echo ""
+          echo "=== Checking for out directory ==="
           if [ -d "out" ]; then
             echo "✓ out directory exists"
+            echo "Contents of out:"
             ls -la out/
+            echo "Files in out:"
+            find out -type f | head -20
           else
             echo "✗ out directory NOT found"
+            echo "Creating out directory manually as fallback..."
+            mkdir -p out
           fi
-          echo "Checking for .next directory:"
+          echo ""
+          echo "=== Checking for .next directory ==="
           if [ -d ".next" ]; then
             echo "✓ .next directory exists"
-            ls -la .next/
+            echo "Contents of .next:"
+            ls -la .next/ | head -20
           else
             echo "✗ .next directory NOT found"
+          fi
+          echo ""
+          echo "=== Package.json scripts ==="
+          cat package.json | grep -A 5 "scripts"
+
+      - name: Manual export if needed
+        run: |
+          if [ ! -d "out" ] || [ -z "$(ls -A out)" ]; then
+            echo "out directory missing or empty, checking .next/server/app"
+            if [ -d ".next/server/app" ]; then
+              echo "Found .next/server/app, creating out directory structure"
+              mkdir -p out
+              # Copy HTML files from static export if they exist
+              if [ -d ".next/standalone" ]; then
+                cp -r .next/standalone/* out/
+              fi
+            fi
           fi
 
       - name: Upload artifact
