@@ -38,11 +38,11 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="tel:+18884493961"
+                href="tel:+18884494635"
                 className="flex items-center gap-2 px-5 py-2.5 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-accent/90 transition-all shadow-md hover:shadow-lg"
               >
                 <Phone size={16} />
-                <span>Call Now: (888) 449-3961</span>
+                <span>Call Now: (888) 449-4635</span>
               </a>
             </nav>
 
@@ -71,11 +71,11 @@ export default function Header() {
                   </Link>
                 ))}
                 <a
-                  href="tel:+18884493961"
+                  href="tel:+18884494635"
                   className="flex items-center justify-center gap-2 px-4 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-accent/90 transition-all"
                 >
                   <Phone size={16} />
-                  <span>Call Now: (888) 449-3961</span>
+                  <span>Call Now: (888) 449-4635</span>
                 </a>
               </div>
             </nav>

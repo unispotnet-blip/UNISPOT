@@ -24,11 +24,11 @@ export default function CTAAndFooter() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <a href="tel:+18884493961" className="px-10 py-4 bg-[#d4af37] text-black font-bold text-lg rounded-lg hover:bg-[#c9a532] transition-all duration-300 transform hover:scale-105 shadow-xl">
-              Call Now: (888) 449-3961
+            <a href="tel:+18884494635" className="px-10 py-4 bg-[#d4af37] text-black font-bold text-lg rounded-lg hover:bg-[#c9a532] transition-all duration-300 transform hover:scale-105 shadow-xl">
+              Call Now: (888) 449-4635
             </a>
-            <a href="tel:+18884493961" className="px-10 py-4 border-2 border-[#d4af37] text-[#d4af37] font-semibold text-lg rounded-lg hover:bg-[#d4af37]/10 transition-all duration-300">
-              Call Now: (888) 449-3961
+            <a href="tel:+18884494635" className="px-10 py-4 border-2 border-[#d4af37] text-[#d4af37] font-semibold text-lg rounded-lg hover:bg-[#d4af37]/10 transition-all duration-300">
+              Call Now: (888) 449-4635
             </a>
           </div>
 
@@ -90,8 +90,8 @@ export default function CTAAndFooter() {
               <h4 className="text-white font-semibold mb-4">Contact Information</h4>
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li>
-                  <a href="tel:+18884493961" className="hover:text-[#d4af37] transition-colors">
-                    📞 (888) 449-3961
+                  <a href="tel:+18884494635" className="hover:text-[#d4af37] transition-colors">
+                    📞 (888) 449-4635
                   </a>
                 </li>
                 <li>
