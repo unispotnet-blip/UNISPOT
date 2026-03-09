@@ -66,13 +66,13 @@ export default function HeroSection({ onOpenModal }: HeroSectionProps) {
               href="tel:+18884493961"
               className="px-8 py-4 bg-[#d4af37] text-black font-semibold text-lg rounded-lg hover:bg-[#c9a532] transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
-              Call Now: 1-888-449-3961
+              Call Now: (888) 449-3961
             </a>
             <a
               href="tel:+18884493961"
               className="px-8 py-4 border-2 border-[#d4af37] text-[#d4af37] font-semibold text-lg rounded-lg hover:bg-[#d4af37]/10 transition-all duration-300"
             >
-              Call Now: 1-888-449-3961
+              Call Now: (888) 449-3961
             </a>
           </div>
 

@@ -199,7 +199,7 @@ export default function HowItWorks() {
               href="tel:+18884493961"
               className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-opacity inline-block"
             >
-              Call Now: 1-888-449-3961
+              Call Now: (888) 449-3961
             </a>
           </div>
         </section>

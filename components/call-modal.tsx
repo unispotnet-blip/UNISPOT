@@ -36,7 +36,7 @@ export default function CallModal({ isOpen, onClose }: CallModalProps) {
       <div className="relative bg-card rounded-lg shadow-2xl w-full max-w-md max-h-[90vh] overflow-y-auto border border-border">
         {/* Header */}
         <div className="sticky top-0 flex items-center justify-between p-6 border-b border-border bg-card">
-          <h2 className="text-xl font-bold text-foreground">Call Now: 1-888-449-3961</h2>
+          <h2 className="text-xl font-bold text-foreground">Call Now: (888) 449-3961</h2>
           <button
             onClick={onClose}
             className="p-1 hover:bg-secondary rounded transition-colors"
@@ -123,7 +123,7 @@ export default function CallModal({ isOpen, onClose }: CallModalProps) {
                 className="w-full px-4 py-3 bg-secondary text-foreground rounded-lg font-semibold hover:bg-opacity-80 transition-colors flex items-center justify-center gap-2"
               >
                 <Phone size={18} />
-                Call Now: 1-888-449-3961
+                Call Now: (888) 449-3961
               </a>
             </form>
           )}

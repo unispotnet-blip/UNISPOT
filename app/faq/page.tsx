@@ -176,7 +176,7 @@ export default function FAQ() {
                 href="tel:+18884493961"
                 className="text-accent hover:text-opacity-80 font-semibold"
               >
-                Call us: 1-888-449-3961
+                Call us: (888) 449-3961
               </a>
             </p>
 
@@ -263,13 +263,13 @@ export default function FAQ() {
                 href="tel:+18884493961"
                 className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
               >
-                Call Now: 1-888-449-3961
+                Call Now: (888) 449-3961
               </a>
               <a
                 href="tel:+18884493961"
                 className="px-8 py-4 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-colors"
               >
-                Call Now: 1-888-449-3961
+                Call Now: (888) 449-3961
               </a>
             </div>
           </div>

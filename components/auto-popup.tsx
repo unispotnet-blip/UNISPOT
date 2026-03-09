@@ -57,7 +57,7 @@ export default function AutoPopup({ onClose }: AutoPopupProps) {
           <div className="p-8 pt-12">
             {/* Headline */}
             <h2 className="text-2xl font-bold text-white mb-3 leading-tight">
-              Call Now: 1-888-449-3961
+              Call Now: (888) 449-3961
             </h2>
 
             {/* Subtext */}
@@ -70,7 +70,7 @@ export default function AutoPopup({ onClose }: AutoPopupProps) {
               onClick={handleCall}
               className="w-full bg-gradient-to-r from-[#d4af37] to-[#c9a532] hover:from-[#c9a532] hover:to-[#b89929] text-black font-bold py-4 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg mb-4"
             >
-              Call Now: 1-888-449-3961
+              Call Now: (888) 449-3961
             </button>
 
             {/* Trust Line */}

@@ -18,7 +18,7 @@ export default function StickyCallBar({ onOpenModal }: StickyCallBarProps) {
         <div className="flex items-center gap-3">
           <Phone size={20} />
           <div className="text-sm sm:text-base font-medium">
-            <p>Call Now: 1-888-449-3961</p>
+            <p>Call Now: (888) 449-3961</p>
             <p className="text-xs sm:text-sm opacity-90">24/7 Support Available</p>
           </div>
         </div>
