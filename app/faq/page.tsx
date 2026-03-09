@@ -172,12 +172,12 @@ export default function FAQ() {
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
               Find answers to common questions. Can't find what you are looking for?{' '}
-              <button
-                onClick={() => setModalOpen(true)}
+              <a
+                href="tel:+18884493961"
                 className="text-accent hover:text-opacity-80 font-semibold"
               >
-                Contact us
-              </button>
+                Call us: 1-888-449-3961
+              </a>
             </p>
 
             {/* Compliance Disclosure */}
@@ -259,17 +259,17 @@ export default function FAQ() {
               Our support team is ready to help with any questions or concerns you might have.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                onClick={() => setModalOpen(true)}
+              <a
+                href="tel:+18884493961"
                 className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
               >
-                Contact Support
-              </button>
+                Call Now: 1-888-449-3961
+              </a>
               <a
-                href="tel:+1-800-000-0000"
+                href="tel:+18884493961"
                 className="px-8 py-4 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-colors"
               >
-                Call Now
+                Call Now: 1-888-449-3961
               </a>
             </div>
           </div>

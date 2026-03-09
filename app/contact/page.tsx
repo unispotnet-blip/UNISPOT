@@ -111,17 +111,17 @@ export default function Contact() {
               <p className="text-lg text-muted-foreground mb-4">
                 Prefer to talk right away?
               </p>
-              <button
-                onClick={() => setModalOpen(true)}
+              <a
+                href="tel:+18884493961"
                 className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-opacity mr-4"
               >
-                Request a Call
-              </button>
+                Call Now: 1-888-449-3961
+              </a>
               <a
-                href="tel:+1-800-000-0000"
+                href="tel:+18884493961"
                 className="px-8 py-4 border-2 border-accent text-accent rounded-lg font-bold text-lg hover:bg-accent/10 transition-colors inline-block"
               >
-                Call Now
+                Call Now: 1-888-449-3961
               </a>
             </div>
           </div>

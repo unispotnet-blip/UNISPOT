@@ -195,12 +195,12 @@ export default function HowItWorks() {
             <p className="text-xl text-muted-foreground mb-8">
               Our experts are standing by. Start your guidance session today.
             </p>
-            <button
-              onClick={() => setModalOpen(true)}
-              className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-opacity"
+            <a
+              href="tel:+18884493961"
+              className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-opacity inline-block"
             >
-              Start Now
-            </button>
+              Call Now: 1-888-449-3961
+            </a>
           </div>
         </section>
 
