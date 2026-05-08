@@ -112,16 +112,16 @@ export default function Contact() {
                 Prefer to talk right away?
               </p>
               <a
-                href="tel:+18886202103"
+                href="tel:+18885516525"
                 className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-opacity mr-4"
               >
-                Call Now: (888) 620-2103
+                Call Now: (888) 551-6525
               </a>
               <a
-                href="tel:+18886202103"
+                href="tel:+18885516525"
                 className="px-8 py-4 border-2 border-accent text-accent rounded-lg font-bold text-lg hover:bg-accent/10 transition-colors inline-block"
               >
-                Call Now: (888) 620-2103
+                Call Now: (888) 551-6525
               </a>
             </div>
           </div>

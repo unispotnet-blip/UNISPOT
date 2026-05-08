@@ -173,10 +173,10 @@ export default function FAQ() {
             <p className="text-xl text-muted-foreground mb-8">
               Find answers to common questions. Can't find what you are looking for?{' '}
               <a
-                href="tel:+18886202103"
+                href="tel:+18885516525"
                 className="text-accent hover:text-opacity-80 font-semibold"
               >
-                Call us: (888) 620-2103
+                Call us: (888) 551-6525
               </a>
             </p>
 
@@ -260,16 +260,16 @@ export default function FAQ() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+18886202103"
+                href="tel:+18885516525"
                 className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
               >
-                Call Now: (888) 620-2103
+                Call Now: (888) 551-6525
               </a>
               <a
-                href="tel:+18886202103"
+                href="tel:+18885516525"
                 className="px-8 py-4 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-colors"
               >
-                Call Now: (888) 620-2103
+                Call Now: (888) 551-6525
               </a>
             </div>
           </div>

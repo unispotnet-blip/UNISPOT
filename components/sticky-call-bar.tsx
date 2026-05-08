@@ -18,14 +18,14 @@ export default function StickyCallBar({ onOpenModal }: StickyCallBarProps) {
         <div className="flex items-center gap-3">
           <Phone size={20} />
           <div className="text-sm sm:text-base font-medium">
-            <p>Call Now: (888) 620-2103</p>
+            <p>Call Now: (888) 551-6525</p>
             <p className="text-xs sm:text-sm opacity-90">24/7 Support Available</p>
           </div>
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3">
           <a
-            href="tel:+18886202103"
+            href="tel:+18885516525"
             className="px-4 py-2 bg-accent-foreground text-accent rounded-lg font-semibold hover:opacity-90 transition-opacity whitespace-nowrap text-sm sm:text-base"
           >
             Call Now
