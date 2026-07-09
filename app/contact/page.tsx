@@ -112,16 +112,16 @@ export default function Contact() {
                 Prefer to talk right away?
               </p>
               <a
-                href="tel:+18556575942"
+                href="tel:+18554705491"
                 className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-opacity mr-4"
               >
-                Call Now: (855) 657-5942
+                Call Now: (855) 470-5491
               </a>
               <a
-                href="tel:+18556575942"
+                href="tel:+18554705491"
                 className="px-8 py-4 border-2 border-accent text-accent rounded-lg font-bold text-lg hover:bg-accent/10 transition-colors inline-block"
               >
-                Call Now: (855) 657-5942
+                Call Now: (855) 470-5491
               </a>
             </div>
           </div>
