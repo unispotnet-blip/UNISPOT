@@ -196,10 +196,10 @@ export default function HowItWorks() {
               Our experts are standing by. Start your guidance session today.
             </p>
             <a
-              href="tel:+18773707993"
+              href="tel:+18886085436"
               className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-bold text-lg hover:opacity-90 transition-opacity inline-block"
             >
-              Call Now: (877) 370-7993
+              Call Now: (888) 608-5436
             </a>
           </div>
         </section>

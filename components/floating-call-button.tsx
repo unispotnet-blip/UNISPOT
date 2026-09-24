@@ -14,9 +14,9 @@ export default function FloatingCallButton({ onOpen }: FloatingCallButtonProps) 
 
   return (
     <a
-      href="tel:+18773707993"
+      href="tel:+18886085436"
       className="fixed bottom-8 right-8 z-40 w-14 h-14 bg-accent text-accent-foreground rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 animate-pulse"
-      aria-label="Call Now: (877) 370-7993"
+      aria-label="Call Now: (888) 608-5436"
       onClick={(e) => {
         if (onOpen) {
           e.preventDefault()
