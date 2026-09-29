@@ -69,7 +69,7 @@ export default function CTAAndFooter() {
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li>
                   <a href="/how-it-works" className="hover:text-[#d4af37] transition-colors">
-                    How It Works
+                    Bill Pay Guide
                   </a>
                 </li>
                 <li>

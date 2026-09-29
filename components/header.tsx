@@ -9,7 +9,7 @@ export default function Header() {
 
   const navigationLinks = [
     { label: 'Home', href: '/' },
-    { label: 'How It Works', href: '/how-it-works' },
+    { label: 'Bill Pay Guide', href: '/how-it-works' },
     { label: 'FAQ', href: '/faq' },
     { label: 'Contact', href: '/contact' },
   ]
